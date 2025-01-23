@@ -170,3 +170,18 @@ CSS:
     background-color: #D9D9D9;
 }
 ```
+Hugo.toml
+
+```toml
+[markup.highlight]
+        anchorLineNos = true #将每个行号渲染为HTML锚元素
+        codeFences = true
+        guessSyntax = true
+        lineAnchors = ""
+        lineNoStart =1
+        lineNos = true
+        lineNumbersInTable = false
+        noClasses = true
+        style = "doom-one2"
+        tabWidth = 4
+```
